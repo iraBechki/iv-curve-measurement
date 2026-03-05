@@ -1,0 +1,52 @@
+# ☀️ Student Guide: Solar Panel I-V Curve Measurement
+
+**⚠️ IMPORTANT RULE:** You MUST perform **Calibration** before starting your measurements!
+
+---
+
+## 1. Setup & Connection 🔌
+1.  **Open** the "PV I-V Curve Analyzer" application.
+2.  **Connect** the device to your computer via USB.
+3.  In the "Connection" box (top left):
+    *   **COM Port:** Select your Arduino's port (e.g., COM3).
+    *   **Baud Rate:** Select **9600**.
+4.  Wait for the green text: **"Connected"**.
+
+---
+
+## 2. Calibration (DO THIS FIRST!) ⚙️
+*You must do this every time before you start a new set of measurements.*
+
+1.  **Disconnect the Solar Panel and Load** from the device (ensure the blue terminals are empty).
+2.  Go to the **"Settings"** tab.
+3.  Look for **"Step 1: Zero Current Calibration"**.
+4.  Click the button **"Calibrate Zero Current"**.
+5.  Wait for the green checkmark ✓ and message **"Current offset: ... A"**.
+    *   *(This ensures your zero point is accurate by removing any sensor drift.)*
+
+---
+
+## 3. Measuring the Curve 📈
+1.  **Connect** your Solar Panel and Variable Resistor to the device.
+2.  Go to the **"Measurement"** tab.
+3.  **Start at one end:** Adjust your variable resistor to its maximum resistance.
+4.  **Take a Point:**
+    *   Click **"Measure Point"**.
+    *   See the values appear (V, I, P).
+    *   Click **"Add to Table"**.
+5.  **Repeat:**
+    *   Turn the resistor knob slightly.
+    *   Click **"Measure Point"** -> **"Add to Table"**.
+    *   Do this for many points to draw the full curve.
+6.  *(Optional)* Use **"Measure Voc"** (Open Circuit) with no load, and **"Measure Isc"** (Short Circuit) with minimum resistance for reference points.
+
+---
+
+## 4. Save Your Work 💾
+1.  When your curve looks complete on the graph:
+2.  Click **"Export Data/Plot"** (bottom left).
+3.  Choose **"Data Table"** (CSV for Excel) or **"Plot/Graph"** (Image for report).
+4.  Click **"✓ Choose Location & Export"** to save your file.
+
+---
+**Note:** If you make a mistake, click **"Clear All"** to start over.
