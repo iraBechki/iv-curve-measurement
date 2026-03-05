@@ -1,0 +1,29 @@
+{
+  "calibration": {
+    "zero_offset": 0.0,
+    "voltage_slope": 1.0,
+    "voltage_offset": 0.0,
+    "current_slope": 1.0266716710710209,
+    "current_offset": 0.07099567930447925
+  },
+  "plot_settings": {
+    "show_iv": true,
+    "show_pv": false,
+    "show_voc_isc": false,
+    "show_mpp": false,
+    "iv_style": "both",
+    "pv_style": "both",
+    "iv_color": "#0000FF",
+    "pv_color": "#FF0000",
+    "line_width": 2,
+    "marker_size": 6,
+    "separate_graphs": false,
+    "v_min": null,
+    "v_max": null,
+    "i_min": null,
+    "i_max": null,
+    "p_min": null,
+    "p_max": null
+  },
+  "baud_rate": 9600
+}
